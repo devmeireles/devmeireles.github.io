@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap");
+
+html {
+  color: #131313;
+  font-family: "Roboto", sans-serif;
+}
+
+.gray-bg {
+  background-color: #f7f7f7;
+}
+
+.nav-bar .logo h1 {
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.header-content {
+  min-height: 600px;
+}
+
+.header-content .greetings h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.header-content .greetings h2 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.header-content .profile-photo .photo-card {
+  background-image: url("../img//gabriel-meireles.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.about p {
+  font-weight: 400;
+}
+
+.skills .progress-bar {
+  background-color: #131313;
+}
+
+.timeline-content {
+  min-height: 400px;
+}
