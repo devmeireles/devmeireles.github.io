@@ -1,0 +1,20 @@
+.hero {
+    display: flex;
+    padding: 0 10%;
+    justify-content: space-around;
+    align-items: center;
+
+    .bio {
+        width: 50%;
+
+        strong {
+            font-weight: bold;
+            color: #7E57C2;
+
+        }
+    }
+
+    .image {
+        width: 50%;
+    }
+}
