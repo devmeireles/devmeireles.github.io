@@ -66,9 +66,9 @@ export default function Career() {
                     <div className='item' key={item.id}>
                         <div className='content'>
                             <h3>{item.name}</h3>
-                            <p className='date'>{item.date}</p>
+                            <p className='content__date'>{item.date}</p>
                             <p>{item.description}</p>
-                            <p className='stack'>{item.stack}</p>
+                            <p className='content__stack'>{item.stack}</p>
                         </div>
                     </div>
                 ))}

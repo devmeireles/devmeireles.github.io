@@ -99,7 +99,7 @@ export default function Education() {
             <div className='items'>
                 {items.map((item) => (
                     <div className='item' key={item.id}>
-                        <h3>{item.title} - {item.school} <span>({item.date})</span></h3>
+                        <h3 className='item__title'>{item.title} - {item.school} <span>({item.date})</span></h3>
                         <p>{item.skills}</p>
                     </div>
                 ))}
