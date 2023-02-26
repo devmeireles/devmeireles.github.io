@@ -64,6 +64,7 @@ const config = {
           {to: '#career', label: 'Career', position: 'left'},
           {to: '#repositories', label: 'Repositories', position: 'left'},
           {to: '#education', label: 'Education', position: 'left'},
+          {to: '#stack', label: 'Stack', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',

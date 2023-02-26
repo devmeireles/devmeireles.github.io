@@ -6,6 +6,7 @@ import Hero from '../components/Hero';
 import Repositories from '../components/Repositories';
 import Career from '../components/Career';
 import Education from '../components/Education';
+import Stack from '../components/Stack';
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
@@ -18,6 +19,7 @@ export default function Home() {
         <Career />
         <Repositories />
         <Education />
+        <Stack />
       </main>
     </Layout>
   );
