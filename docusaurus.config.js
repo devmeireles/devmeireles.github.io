@@ -9,6 +9,7 @@ const config = {
   title: 'Gabriel Meireles - Software Developer',
   tagline: 'Developer with 10+ years of experience with knowledges in TypeScript, JavaScript, PHP, Python and Go as back-end developer. In addition to a stack as front-end using React, React Native and Vue.js.',
   favicon: 'img/favicon.ico',
+  trailingSlash: true,
 
   // Set the production url of your site here
   url: 'https://devmeireles.github.io',
