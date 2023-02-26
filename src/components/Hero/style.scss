@@ -9,12 +9,23 @@
 
         strong {
             font-weight: bold;
-            color: #7E57C2;
+            color: var(--ifm-color-primary);
 
         }
     }
 
     .image {
         width: 50%;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .bio {
+            padding: 5% 0;
+            width: 100%;
+        }
+
+        .image {
+            display: none;
+        }
     }
 }

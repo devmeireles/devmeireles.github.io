@@ -8,7 +8,7 @@
         margin-bottom: 2%;
 
         h1 {
-            color: #7E57C2;
+            color: var(--ifm-color-primary);
             text-align: center;
         }
     }
@@ -46,7 +46,7 @@
                 line-height: 29px;
 
                 h3 {
-                    color: #7E57C2;
+                    color: var(--ifm-color-primary);
                     font-size: 22px;
                 }
 
@@ -63,9 +63,26 @@
         margin-top: 2%;
 
         a {
-            color: #7E57C2;
+            color: var(--ifm-color-primary);
             font-size: 18px;
             font-weight: bold;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .timeline {
+            .item {
+                width: 100%;
+                padding: 3% 0;
+
+                &::after {
+                    display: none;
+                }
+
+                .content {
+                    width: 100%;
+                }
+            }
         }
     }
 }

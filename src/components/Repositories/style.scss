@@ -3,13 +3,14 @@
     padding: 5% 10%;
     justify-content: center;
     flex-direction: column;
+    background-color: var(--ifm-hero-background-color);
 
     .header {
         width: 100%;
         margin-bottom: 2%;
 
         h1 {
-            color: #7E57C2;
+            color: var(--ifm-color-primary);
             text-align: center;
         }
     }
@@ -32,8 +33,20 @@
             cursor: pointer;
 
             h3 {
-                color: #7E57C2;
+                color: var(--ifm-color-primary);
                 font-weight: bold;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .items {
+            display: flex;
+            flex-direction: column;
+
+            .item {
+                width: 100%;
+                padding: 5%;
             }
         }
     }
