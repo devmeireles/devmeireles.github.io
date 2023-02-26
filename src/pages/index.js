@@ -5,6 +5,7 @@ import Layout from '@theme/Layout';
 import Hero from '../components/Hero';
 import Repositories from '../components/Repositories';
 import Career from '../components/Career';
+import Education from '../components/Education';
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
@@ -16,6 +17,7 @@ export default function Home() {
       <main>
         <Career />
         <Repositories />
+        <Education />
       </main>
     </Layout>
   );
