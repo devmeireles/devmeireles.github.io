@@ -83,7 +83,7 @@ export default function Repositories() {
     };
 
     return (
-        <section className='repositories'>
+        <section className='repositories' id='repositories'>
             <div className='header'>
                 <h1>Repositories</h1>
             </div>

@@ -4,7 +4,7 @@ import styles from './style.scss';
 
 export default function Hero() {
     return (
-        <header className='hero'>
+        <header className='hero' id='about'>
             <div className='bio'>
                 <h1>Hello, I'm <strong>Gabriel Meireles</strong></h1>
                 <p>
