@@ -5,7 +5,7 @@
     flex-direction: column;
     background-color: var(--ifm-hero-background-color);
 
-    .header {
+    &-header {
         width: 100%;
         margin-bottom: 2%;
 
@@ -15,14 +15,14 @@
         }
     }
 
-    .items {
+    &-items {
         display: flex;
         width: 100%;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
 
-        .item {
+        &__item {
             width: 30%;
             padding: 2%;
             margin: 2% 0;
@@ -39,14 +39,18 @@
         }
     }
 
-    @media only screen and (max-width: 600px) {
-        .items {
+    @media only screen and (max-width: 900px) {
+        &-items {
             display: flex;
             flex-direction: column;
 
-            .item {
+            &__item {
                 width: 100%;
                 padding: 5%;
+
+                &:nth-child(n+1) {
+                    margin: 10% 0;
+                }
             }
         }
     }

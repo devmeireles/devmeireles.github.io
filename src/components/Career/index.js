@@ -57,14 +57,14 @@ export default function Career() {
 
     return (
         <section className='career' id='career'>
-            <div className='header'>
+            <div className='career-header'>
                 <h1>Career</h1>
             </div>
 
-            <div className='timeline'>
+            <div className='career-timeline'>
                 {timeline.map((item) => (
-                    <div className='item' key={item.id}>
-                        <div className='content'>
+                    <div className='timeline__item' key={item.id}>
+                        <div className='timeline__item-content'>
                             <h3>{item.name}</h3>
                             <p className='content__date'>{item.date}</p>
                             <p>{item.description}</p>

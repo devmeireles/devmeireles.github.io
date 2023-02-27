@@ -92,14 +92,14 @@ export default function Education() {
 
     return (
         <section className='education' id='education'>
-            <div className='header'>
+            <div className='education-header'>
                 <h1>Education</h1>
             </div>
 
-            <div className='items'>
+            <div className='education-items'>
                 {items.map((item) => (
-                    <div className='item' key={item.id}>
-                        <h3 className='item__title'>{item.title} - {item.school} <span>({item.date})</span></h3>
+                    <div className='education-items__item' key={item.id}>
+                        <h3 className='items__item-title'>{item.title} - {item.school} <span>({item.date})</span></h3>
                         <p>{item.skills}</p>
                     </div>
                 ))}

@@ -5,8 +5,8 @@ import styles from './style.scss';
 export default function Hero() {
     return (
         <header className='hero' id='about'>
-            <div className='bio'>
-                <h1>Hello, I'm <strong>Gabriel Meireles</strong></h1>
+            <div className='hero-bio'>
+                <h1>Hello, I'm <strong className='bold'>Gabriel Meireles</strong></h1>
                 <p>
                     a software developer based in Almada, Portugal. Over the past few years, I've been involved in several projects for different segments within and outside the technology industry. I started my career developing with PHP, which I worked with Laravel, Codeigniter, Zend, Lumen, Yii2, CakePHP and Symfony.
                 </p>
@@ -20,7 +20,7 @@ export default function Hero() {
                 </p>
             </div>
 
-            <div className='image'>
+            <div className='hero-image'>
                 <img src='img/hero-img.png' />
             </div>
         </header>

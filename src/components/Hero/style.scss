@@ -4,27 +4,27 @@
     justify-content: space-around;
     align-items: center;
 
-    .bio {
+    &-bio {
         width: 50%;
 
-        strong {
+        .bold {
             font-weight: bold;
             color: var(--ifm-color-primary);
 
         }
     }
 
-    .image {
+    &-image {
         width: 50%;
     }
 
-    @media only screen and (max-width: 600px) {
-        .bio {
+    @media only screen and (max-width: 900px) {
+        &-bio {
             padding: 5% 0;
             width: 100%;
         }
 
-        .image {
+        &-image {
             display: none;
         }
     }

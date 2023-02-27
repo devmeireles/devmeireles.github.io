@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
 
-    .header {
+    &-header {
         width: 100%;
         margin-bottom: 2%;
 
@@ -13,8 +13,8 @@
         }
     }
 
-    .timeline {
-        .item {
+    &-timeline {
+        .timeline__item {
             width: 100%;
             display: flex;
 
@@ -40,7 +40,7 @@
                 }
             }
 
-            .content {
+            &-content {
                 width: 50%;
                 padding: 2% 5%;
                 line-height: 29px;
@@ -69,18 +69,24 @@
         }
     }
 
-    @media only screen and (max-width: 600px) {
-        .timeline {
-            .item {
-                width: 100%;
-                padding: 3% 0;
-
-                &::after {
-                    display: none;
-                }
-
-                .content {
+    @media only screen and (max-width: 900px) {
+        .career {
+            &-timeline {
+                .timeline__item {
                     width: 100%;
+                    padding: 3% 0;
+
+                    &::after {
+                        display: none;
+                    }
+
+                    &::before {
+                        display: none;
+                    }
+
+                    &-content {
+                        width: 100%;
+                    }
                 }
             }
         }

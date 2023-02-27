@@ -84,13 +84,13 @@ export default function Repositories() {
 
     return (
         <section className='repositories' id='repositories'>
-            <div className='header'>
+            <div className='repositories-header'>
                 <h1>Repositories</h1>
             </div>
 
-            <div className='items'>
+            <div className='repositories-items'>
                 {repositoriesList.map((repository) => (
-                    <div className='item' key={repository.id} onClick={() => openLink(repository.link)}>
+                    <div className='repositories-items__item' key={repository.id} onClick={() => openLink(repository.link)}>
                         <h3>{repository.name}</h3>
                         <p>{repository.description}</p>
                         <p>{repository.language}</p>

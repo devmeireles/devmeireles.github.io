@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
 
-    .header {
+    &-header {
         width: 100%;
         margin-bottom: 2%;
 
@@ -13,16 +13,26 @@
         }
     }
 
-    .items {
-        .item {
+    &-items {
+        &__item {
             padding: 1% 0;
 
             h3 {
                 margin-bottom: 1px;
+
                 span {
                     font-weight: normal;
                 }
             }
         }
     }
+
+    @media only screen and (max-width: 900px) {
+        &-items {
+            &__item {
+                margin: 5% 0;
+            }
+        }
+    }
+
 }
